@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import { Dashboard, Register, Error, Landing } from "./pages"
+import { ProtectedRoute, Register, Error, Landing } from "./pages"
 import { AllJobs, AddJob, Profile, SharedLayout, Stats } from './pages/dashboard'
 const App = () => {
   return (

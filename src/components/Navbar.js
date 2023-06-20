@@ -1,7 +1,7 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Wrapper from '../assets/wrappers/Navbar'
 import {FaAlignLeft,FaUserCircle,FaCaretDown} from 'react-icons/fa'
-import { useAppContext } from '../context'
+import { useAppContext } from '../context/appContext'
 import Logo from './Logo'
 const Navbar = () => {
   const [showLogout, setShowLogout] = useState(false)
