@@ -4,6 +4,7 @@ import {FaTimes} from 'react-icons/fa'
 import { useAppContext } from '../context/appContext'
 import links from '../utils/links'
 import { NavLink } from 'react-router-dom'
+import NavLinks from './NavLinks'
 import Logo from './Logo'
 
 const SmallSidebar = () => {
